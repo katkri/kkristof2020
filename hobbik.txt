@@ -1,0 +1,41 @@
+<ul>
+			<li>Egy pár általam kedvelt híres festő:
+			  <ol>
+				 <li> Renoir </li>
+				 <li> Monet </li>
+				 <li> Perlmutter Izsák </li>
+				 <li> Vang Gogh </li>
+				 <li> Caravaggio </li
+			  </ol>
+			</li>
+			<li>Albumok, amiket gyerekként hallgattam sokat:
+				<ul>
+					<li> Tom Waits: Mule Variations </li>
+					<li> Shakira: Laundry Service </li>
+					<li> The killers: Sam's town </li>
+					<li> Linkin park: Breaking Theory </li>
+					<li> Grorillaz: Demon Days </li>
+				</ul>
+			</li>
+			<li>Steamen a játékok amik megvannak:
+				<ul>
+					<li> Call of Duty </li>
+					<li> Quake Live </li>
+					<li> Call of Duty 4: Modern Warfare </li>
+					<li> Quake 3 Arena </li>
+					<li> Counter Strike </li>
+					<li> Endless Space </li>
+					<li> The Elder Scrolls: Oblivion </li>
+				</ul>
+			</li>
+			<li>Kedvenc magyar költőim:
+				<ul>
+					<li> Radnóti Miklós </li>
+					<li> Pilinszky János </li>
+					<li> Ady Endre </li>
+					<li> Arany János </li>
+					<li> Kányádi Sándor </li>
+					<li> Weöres Sándor </li>
+				</ul>
+			</li>
+		</ul>

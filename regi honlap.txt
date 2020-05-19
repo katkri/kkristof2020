@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+    <head>
+		<title>kkatona website</title> <!-- ez jelenik meg a fĂĽlĂ¶n a bĂ¶ngĂ©szĹ‘ben -->
+		<link type="text/css" rel="stylesheet" href="style.css">
+        <meta charset="utf-8"> <!-- karakterkĂłdolĂˇs fontos az Ă©kezetek miatt -->
+		<meta name="description" content="html prĂłba oldal"/> <!-- amit ide Ă­runk, (fĂ¶kĂ©nt, de nem csak ) azt lĂˇtjĂˇk a keresĹ‘k -->
+		<link rel="shortcut icon"
+			href="https://cdn.dribbble.com/users/1303003/screenshots/3988327/cat-logo.png"
+			type="image/x-icon"> <!-- ez az ikon lesz a fĂĽlĂ¶n a bĂ¶ngĂ©szĹ‘ben -->
+	</head>
+	
+	<body>
+		<h1 class=cim>Nehany talalat</h1> <!-- kĂĽlĂ¶nbĂ¶zĹ‘ cĂ­msorok, alcĂ­mek -->
+
+fel eeeeeeee
+<br/>
+hatra aaaaaaa aaaaaaa 
+<p id=hello>
+vissza iiiiiii aaaaaaa
+<a href="http://www.google.com/">goole</a>
+</p>
+
+
+		<h2 id=calm>Redrum drumkit</h2>
+		<h2 id=focim>Kong</h2>
+		<h4>drumkit</h4>
+		<h4 id=calm>Hello Kitty</h4>
+		<h5>Cherry Queen</h5>
+		<h2>Balta dobalas</h2>
+		<p id="eleje"> <!-- bekezdĂ©s, paragraph, id-vel hivatkozhatjuk. lĂˇsd #vege-->
+		KezdjĂĽk szĂˇmtannal: 1+1=2 &lt; 3<br/>
+		FigyeljĂĽnk arra, hogy a paragrafusok hasznĂˇlata <strong>kĂ¶telezĹ‘</strong>.<br/>
+		<em>Fontos infĂłk</em> (ha gyorsan a vĂ©gĂ©re szeretnĂ©l ugrani, akkor kattints <a href="#vege">ide</a>)
+		</p>
+		<dl>
+		 <dt>html validĂˇtor (amivel majd a hĂˇzit is ellenĹ‘riztetni kell):</dt>
+		 <dd><a href="http://validator.w3.org">http://validator.w3.org</a></dd>
+		 <dt>CSS validĂˇtor:</dt>
+		 <dd><a href="http://jigsaw.w3.org/css-validator/">http://jigsaw.w3.org/css-validator/</a></dd>
+
+		 <dt>HTML-rĹ‘l dokumentĂˇciĂł</dt>
+		 <dd><a href="http://www.w3c.hu/forditasok/sikos/bevezet/start.htm">http://www.w3c.hu/forditasok/sikos/bevezet/start.htm</a></dd>
+
+		 <dt>Magyarul CSS-rĹ‘l:</dt>
+		 <dd><a href="http://www.w3c.hu/forditasok/sikos/bevezet/style.htm">http://www.w3c.hu/forditasok/sikos/bevezet/style.htm</a></dd>
+
+		</dl>
+		<div class=my_pink_style>
+			PĂ©lda
+		</div>
+		<p class=masodik>
+		Most kicsit mĂˇsrĂłl beszĂ©lĂĽnk, ezĂ©rt hĂşzunk egy nagy vonalat ide. 
+		</p>
+		<hr/>
+		<p>
+		ListĂˇk, felsorolĂˇsok</p>
+		<ul>
+			<li>LabdajĂˇtĂ©kok
+			  <ol>
+				  <li> futball </li>
+				  <li> rĂ¶plabda </li>
+				  <li> tenisz </li>
+				  <li> squash </li>
+				  <li> golf </li>
+				  <li> kidobĂłs </li>
+			  </ol>
+			</li>
+			<li>irracionĂˇlis szĂˇmok</li>
+		</ul>
+		<p>
+		 NĂ©zzĂĽnk pĂ©ldĂˇt rĂłmai szĂˇmmal szĂˇmozott listĂˇra:
+		</p>
+		<ol type="i">
+			<li>Megtanulunk mindent.</li>
+			<li>??? </li>
+			<li>Profit! (South Park nĂ©zĹ‘k elĹ‘nyben.)</li>
+		</ol>
+		<h2>TĂˇblĂˇzatok, definĂ­ciĂłk</h2>
+		<p>
+		 NĂ©zzĂĽnk pĂˇr definĂ­ciĂłt!
+		</p>
+		<dl>
+		<dt class=elso>
+		Ez egy szĂ­nes sor.
+		</dt>
+			<dt>BME</dt>
+			<dd>Budapesti MĹ±szaki- es GazdasĂˇgtudomĂˇnyi Egyetem</dd>
+			
+			<dt>TTK</dt>
+			<dd>TermĂ©szettudomanyi Kar</dd>
+		</dl>
+		<p>
+		Majd egy pĂ©lda tĂˇblĂˇzatra:
+		</p>
+		<table>
+			<tr><th>Ez az 1. oszlop</th><th>Ez meg a 2. oszlop</th></tr>
+			<tr><td>a</td><td>b</td></tr>
+			<tr><td colspan="2" style="text-align: center">2 szĂ©les pĂ©lda elem</td> </tr>
+			<tr><td rowspan="2">c</td><td>d</td></tr>
+			<tr>	<td>d</td></tr>
+		</table>
+		<p>
+		Az AND igazsĂˇgtĂˇblĂˇja.
+		</p>
+		<table>
+			<caption>
+				AND
+			</caption>
+			<tr><td>&nbsp;</td> <th scope="col">1</th> <th scope="col">0</th></tr>
+			<tr> <th scope="row">1</th> <td>1</td> <td>0</td></tr>
+			<tr> <th scope="row">0</th> <td>0</td> <td>0</td></tr>
+		</table>
+
+		<h2>KĂ©p beillesztĂ©se</h2>
+		<h3>SzĂ©lessĂ©g Ă©s magassĂˇg megadĂˇsa nĂ©lkĂĽl a kĂ©p mĂ©rete hatĂˇrozza meg a honlapon a mĂ©retet</h3>
+		<p>Ă‰s a kĂ©p lokĂˇlisan hivatkozva:
+		<br/>
+		<img src="istockphoto-832632796-612x612.jpg" alt="Ez egy vicc." title="Kedvenc viccem"/>
+		</p>
+		<h3>Egy mĂˇsik elnyĂşjtva</h3>
+		<p>Ă‰s a szĂ¶veg utĂˇn Ă­rva, globĂˇlisan hivatkozva:
+		<br/>
+		<img src="https://www.pond5.com/images/images_db/vlp/image-hero-poster.jpg" width="550" height="100" alt="Ugyanaz kisebb kivitelben."/>
+		</p>
+		<img src="https://math.bme.hu/sites/matint.math.bme.hu/files/BMEMI_TEX_kerettel_266x50.png" alt="Hiba tĂ¶rtĂ©nt." />
+		<h2>NĂ©zzĂĽnk egy linket!</h2>
+		<p>
+		<a href="http://validator.w3.org">A validator linkje</a>. Itt lehet leellenĹ‘rizni, hog az oldalunk szabvĂˇnyos-e.
+		</p>
+
+		<h2>KĂłdrĂ©szlet</h2>
+		<p id=calm>
+		A &lt; pre &gt; Ă©s &lt; /pre &gt; rĂ©sz kĂ¶zĂ© tett kĂłdot nem kell kĂĽlĂ¶n formĂˇzni. Ez egy <em>Maple</em> kĂłd:
+		</p>
+		<pre>
+> l:=[]: 
+  for i from 1 to 5 do 
+   x:=(rand() mod 90) + 1: 
+   while member(x,l) do 
+    x:=(rand() mod 90) + 1: 
+    printf("%d ",x): 
+   end do: 
+  l:=[op(l),x]: 
+  end do: 
+  l;
+		</pre>
+		<h2 id="vege">VilĂˇggĂˇ kĂĽrtĂ¶lhetjĂĽk, hogy szabvĂˇnyos az oldalunk</h2>
+		<body>
+ 	<div>ElsĹ‘ sor</div>
+ 	<div class="my_pink_style">MĂˇsodik sor</div>
+ 	<div>Harmadik sor</div>
+		</body>
+		<p>
+		 Persze akkor is betehetĂĽnk egy ilyen kĂ©pet, ha nem szabvĂˇnyos az oldalunk, de a kĂ©pre kattintva bĂˇrki leellenĹ‘rizheti.
+		<br/>
+		<a href="http://validator.w3.org/check?uri=referer">
+		<img style="border:0"
+		src="http://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"
+        alt="Ă‰rvĂ©nyes"/></a>
+		</p>
+		<h1>Ă‰s vĂ©gĂĽl mĂ©g egy h1-es cĂ­m</h1>
+		<p> ha ha honlap elejĂ©re akarsz ugrani : <a href=#focim> ide kattints! </a> </p>
+	</body>
+</html>
